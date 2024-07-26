@@ -1,0 +1,14 @@
+dotnet new sln --name EtecBarraBonita
+
+dotnet new mvc -o EtecBarraBonita
+
+dotnet sln add EtecBarraBonita\EtecBarraBonita.csproj
+
+
+
+Criar as classes de Modelo
+Criar o contexto
+Criar a ConnectionString no AppSettings
+Adicionar os Serviços no Program
+Executar o Xampp e o MySQL
+Criar e Executar a Migração de Dados
